@@ -1,3 +1,7 @@
+(Anadyr: Unzip Carthage before compile)
+
+
+
 ![Beethoven](https://github.com/vadymmarkov/Beethoven/blob/master/Resources/BeethovenPresentation.png)
 
 [![CI Status](http://img.shields.io/travis/vadymmarkov/Beethoven.svg?style=flat)](https://travis-ci.org/vadymmarkov/Beethoven)
