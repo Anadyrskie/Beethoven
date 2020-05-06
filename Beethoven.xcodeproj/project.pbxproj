@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		836E250324628757007B1A4D /* Carthage in Resources */ = {isa = PBXBuildFile; fileRef = 836E250224628757007B1A4D /* Carthage */; };
 		AF3190521DABE01600C897CA /* YINTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3190511DABE01600C897CA /* YINTransformer.swift */; };
 		AFFF3FF11DB633B4004AD9D9 /* YINEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFF3FF01DB633B4004AD9D9 /* YINEstimator.swift */; };
 		D51575B61C343B77006F8E75 /* Beethoven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51575AB1C343B77006F8E75 /* Beethoven.framework */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		836E250224628757007B1A4D /* Carthage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Carthage; sourceTree = "<group>"; };
 		AF3190511DABE01600C897CA /* YINTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = YINTransformer.swift; sourceTree = "<group>"; tabWidth = 2; };
 		AFFF3FF01DB633B4004AD9D9 /* YINEstimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YINEstimator.swift; sourceTree = "<group>"; };
 		D51575AB1C343B77006F8E75 /* Beethoven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Beethoven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 		D51575A11C343B77006F8E75 = {
 			isa = PBXGroup;
 			children = (
+				836E250224628757007B1A4D /* Carthage */,
 				D55C01F41DBD1F8100575260 /* Frameworks */,
 				D51575AC1C343B77006F8E75 /* Products */,
 				D55C02031DBD210600575260 /* Project */,
@@ -382,20 +385,21 @@
 				TargetAttributes = {
 					D51575AA1C343B77006F8E75 = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1140;
 					};
 					D51575B41C343B77006F8E75 = {
 						CreatedOnToolsVersion = 7.2;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
 			buildConfigurationList = D51575A51C343B77006F8E75 /* Build configuration list for PBXProject "Beethoven" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D51575A11C343B77006F8E75;
 			productRefGroup = D51575AC1C343B77006F8E75 /* Products */;
@@ -413,6 +417,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836E250324628757007B1A4D /* Carthage in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,7 +662,7 @@
 				PRODUCT_NAME = Beethoven;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -681,7 +686,7 @@
 				PRODUCT_NAME = Beethoven;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -699,7 +704,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -716,7 +721,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vadymmarkov.BeethovenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
